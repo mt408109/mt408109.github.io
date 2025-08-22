@@ -3,4 +3,4 @@ layout: default
 title: About Me
 ---
 # About Me
-Hello! I am [Mt].
+Hello! I am [MT].
