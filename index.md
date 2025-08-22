@@ -1,6 +1,5 @@
 ---
-
-title: Home
+ Home
 ---  Welcome to My Portfolio Hello! My name is Mt.
 ## Projects
 - Project 1: Description
