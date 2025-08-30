@@ -1,8 +1,8 @@
 ---
-Home
----  Welcome to My Portfolio Hello! My name is MT.
-## Projects
-- Project 1: Description
-- Project 2: Description
-## About Me
-Click here to learn more → [About Me](about.md)
+layout: default
+title: About Me
+---
+# About Me
+Hello! I am MT
+Write a short paragraph about your interests, skills, or goals.
+**Do not include your real name, email, or any identifiable information.**
