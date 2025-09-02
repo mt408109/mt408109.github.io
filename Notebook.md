@@ -1,8 +1,8 @@
 ## My Coding Notebook
 
 ## Table of Contents
-- [Day 1](#day-1)
-  - [Notes](#notes)
+- [Day 1](#flutter-notes)
+  - [Notes](#what-is-flutter)
   - [Practice](#practice)
 -  [Day 2](#day-2)
 -  [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
