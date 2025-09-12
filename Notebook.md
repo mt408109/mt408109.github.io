@@ -60,8 +60,8 @@
 |Parameter      | The information passed into a function to change how it works. | `greet(String name)` |Money into bank, grocery store, passward  |  |
 |Return      | The result a function gives back. | `return total;` |recipt, shipping date on a order,   |  |
 |Scope      | Where a variable or function can be used. | (No set syntax — concept-based) |Starbucks card, smiths card, dual enrollments  |  |
-|Class      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
-|Object      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
+|Class      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` | what classes you take, grades in the classes, car class  |  |
+|Object      | A specific version of a class. | `Dog myDog = Dog();` |student, computers,  |  |
 |Property      | A variable that belongs to a class/object. | `String name;` |  |  |
 |Method      | A function that belongs to a class. | `void bark() {}` |  |  |
 |Constructor      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
