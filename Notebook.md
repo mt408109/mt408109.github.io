@@ -56,10 +56,10 @@
 |Boolean      | A value that can be true or false. | `bool isLoggedIn = false;` |If u want to open the door, Opening a app,  |  |
 |List      | A collection of values in a specific order. | `List<String> names = [];` |Cards in a wallet, contact list,list of videos you like   |  |
 |Null      | A special value that means “nothing.” | `String? name = null;` |username,  |  |
-|Function      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
-|Parameter      | The information passed into a function to change how it works. | `greet(String name)` |  |  |
-|Return      | The result a function gives back. | `return total;` |  |  |
-|Scope      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
+|Function      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |One switch for all lights, Starting car, videogame character  |  |
+|Parameter      | The information passed into a function to change how it works. | `greet(String name)` |Money into bank, grocery store, passward  |  |
+|Return      | The result a function gives back. | `return total;` |recipt, shipping date on a order,   |  |
+|Scope      | Where a variable or function can be used. | (No set syntax — concept-based) |Starbucks card, smiths card, dual enrollments  |  |
 |Class      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
 |Object      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
 |Property      | A variable that belongs to a class/object. | `String name;` |  |  |
