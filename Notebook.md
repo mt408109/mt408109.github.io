@@ -4,7 +4,7 @@
 - [Day 1](#flutter-notes)
   - [Notes](#what-is-flutter)
   - [Practice](#practice)
--  [Day 2](#day-2)
+  - [Code Definitions](#code-definitions)  
 -  [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
 
@@ -18,9 +18,11 @@
 
 ### Key Terms and Definitions
 
+## Code Definitions
+
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           | Basic building block of a Flutter app. Everything. is a widget                      | Test,,image,containers,column                                          |
+| Widget           | Basic building block of a Flutter app. Everything. is a widget                      | Test,image,containers,column                                          |
 | MaterialApp      | The root of the app. Sets up routes and the theme. | Found in main.dart                                          |
 | Scaffold         | Provides basic visual layout - like a header, body, floating button                                                 | Each screen uses it                                          |
 | StatelessWidget  | A widget that doesnt change                      | Most of the screen files                                          |
@@ -42,6 +44,30 @@
 - How do you center a widget?
 - How do you align something to the left or right?
 - What widget adds space around content?
+
+| Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
+|------|------------|--------------------------|-------------------|-------------|
+|Variable | A named container used to store a value that may change. | `var x = 5;` |Goals in soccer  |  |
+|Constant | A fixed value that cannot change once set. | `const PI = 3.14;` |Username, files, profile imgaine  |  |
+|Data type      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool`|Video, images, Video games |  |
+|String      | A sequence of characters used to represent words or text. | `"Hello World"` |Title on apps, Game mode, messages  |  |
+|Integer      | Whole number values. | `int age = 16;` |Streak, age, clocks  |  |
+|Double      | Number values with decimals. | `double age = 16.2;` |Smooth movement, calulations  |  |
+|Boolean      | A value that can be true or false. | `bool isLoggedIn = false;` |If u want to open the door, Opening a app,  |  |
+|List      | A collection of values in a specific order. | `List<String> names = [];` |Cards in a wallet, contact list,list of videos you like   |  |
+|Null      | A special value that means “nothing.” | `String? name = null;` |username,  |  |
+|Function      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
+|Parameter      | The information passed into a function to change how it works. | `greet(String name)` |  |  |
+|Return      | The result a function gives back. | `return total;` |  |  |
+|Scope      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
+|Class      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
+|Object      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
+|Property      | A variable that belongs to a class/object. | `String name;` |  |  |
+|Method      | A function that belongs to a class. | `void bark() {}` |  |  |
+|Constructor      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
+|Abstraction      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
+|Override      | Changing how a built-in or inherited function behaves. | `@override` |  |  |
+|Void      | A function that does not return a value. | `void printMessage() {}` |  |  |
 
 
 [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
