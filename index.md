@@ -8,4 +8,4 @@ Welcome to My Portfolio Hello! My name is [MT's].
 ## About Me
 Click here to learn more → [About Me](about.md) 
 ## Go to my Notebook
-[Coding Notebook](Notebook.md)
+[Coding Notebook](notebook.md)
