@@ -91,7 +91,7 @@
 |Class      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` | what classes you take, grades in the classes, car class  |  |
 |Object      | A specific version of a class. | `Dog myDog = Dog();` |student, computers,Profiles  |  |
 |Property      | A variable that belongs to a class/object. | `String name;` |A airplane how many seat are in the plane, A bus what wheels or how many seats  |  |
-|Method      | A function that belongs to a class. | `void bark() {}` |self driving cars,  |  |
+|Method      | A function that belongs to a class. | `void bark() {}` |self driving cars, take test |  |
 |Constructor      | A special function used to set up a class when it’s created. | `Dog(this.name);` |Baby certificate (name, date)  |  |
 |Abstraction      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |Driving a car without knowing the engine  |  |
 |Override      | Changing how a built-in or inherited function behaves. | `@override` |super hero have different powers  |  |
