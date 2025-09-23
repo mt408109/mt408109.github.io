@@ -31,20 +31,20 @@
 |Container      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |changing background  |InfoCard.dart, return Container(   |
 |Text      | A widget to display text on the screen. | `Text('Hello')` |on a app, title of app  |InfoCard.dart,  child: Text( description, style: const TextStyle(color: Colors.white),  |
 |Image.network      | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |InfoCard.dart, child: Image.network(imageUrl, width: 100, height: 100, fit: BoxFit.cover), ),  |
-|ElevatedButton      | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |send to profile  |  |
-|onPressed      | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |change the font, change the document  |  |
-|StatelessWidget      | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |about page  |  | 
-|StatefulWidget      | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |locations, background chnages color  |  |
-|Navigator      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
-|Padding      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |Make space  |  |
-|Center      | Aligns content in the center of the screen or container. | `Center(child: ...)` |Welcome in the center in a page  |  |
+|ElevatedButton      | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |send to profile  |showcase.dart Wrap(alignment: WrapAlignment.center, children: puppyUrls.map((url) => puppyImage(url)).toList()),ElevatedButton(  |
+|onPressed      | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |change the font, change the document  |showcase.dart onPressed: () => Navigator.pushNamed(context, '/alt'),|
+|StatelessWidget      | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |about page  |showcase.dart class InfoCard extends StatelessWidget { final String imageUrl;  | 
+|StatefulWidget      | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |locations, background chnages color  |alt_design_screen.dart class AltDesignScreen extends StatelessWidget { |
+|Navigator      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |home.dart Navigator.pushNamed(context, '/background'), child: const Text('Next'),  |
+|Padding      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |Make space  |InfoCard.dart padding: const EdgeInsets.all(12), decoration: BoxDecoration(  |
+|Center      | Aligns content in the center of the screen or container. | `Center(child: ...)` |Welcome in the center in a page  |home.dart return Scaffold( body: Center( child: Column(  |
 |Wrap      | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
-|@override      | This marks a method as one that’s replacing a method in a parent class. | `@override` |app build, customize, individual  |  |
+|@override      | This marks a method as one that’s replacing a method in a parent class. | `@override` |app build, customize, individual  |InfoCard.dart @override Widget build(BuildContext context) {  |
 |Widget build      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |Define screen,   |  |
 |Build()      | Required in every widget class to describe what to show. | `build` |canva, Pdf  |  |
 |BuildConext      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
-|super.key      | A keyword used to pass a value to the parent widget. | `super.key` |emailing teacher  |  |
-|Const      | A keyword that means the value won't change and is set once. | `const` |settings,title of app  |  |
+|super.key      | A keyword used to pass a value to the parent widget. | `super.key` |emailing teacher  |alt_design_screen.dart const AltDesignScreen({super.key});  |
+|Const      | A keyword that means the value won't change and is set once. | `const` |settings,title of app  |InfoCard.dart const SizedBox(width: 12), Expanded( child: Text(  |
 
 ## Code Definitions
 
@@ -78,7 +78,7 @@
 |Variable | A named container used to store a value that may change. | `var x = 5;` |Goals in soccer, score  |in main.dart, title: 'TSA Portfolio',  |
 |Constant | A fixed value that cannot change once set. | `const PI = 3.14;` |Username, files, profile imgaine,text, carpet  |main.dart,const MyPortfolioApp({super.key});  |
 |Data type      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool`|Video, images, Video games |main.dart, bool, debugShowCheckedModeBanner: false,  |
-|String      | A sequence of characters used to represent words or text. | `"Hello World"` |Title on apps, Game mode, messages, store username  |  |
+|String      | A sequence of characters used to represent words or text. | `"Hello World"` |Title on apps, Game mode, messages, store username  |InfoCard.dart final String imageUrl;  |
 |Integer      | Whole number values. | `int age = 16;` |Streak, age, clocks  |  |
 |Double      | Number values with decimals. | `double age = 16.2;` |Smooth movement, calulations  |  |
 |Boolean      | A value that can be true or false. | `bool isLoggedIn = false;` |If u want to open the door, Opening a app,  |  |
