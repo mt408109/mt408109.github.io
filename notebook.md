@@ -38,11 +38,11 @@
 |Navigator      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |home.dart Navigator.pushNamed(context, '/background'), child: const Text('Next'),  |
 |Padding      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |Make space  |InfoCard.dart padding: const EdgeInsets.all(12), decoration: BoxDecoration(  |
 |Center      | Aligns content in the center of the screen or container. | `Center(child: ...)` |Welcome in the center in a page  |home.dart return Scaffold( body: Center( child: Column(  |
-|Wrap      | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
+|Wrap      | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |showcase.dart Wrap(alignment: WrapAlignment.center, children: puppyUrls.map((url) => puppyImage(url)).toList()),  |
 |@override      | This marks a method as one that’s replacing a method in a parent class. | `@override` |app build, customize, individual  |InfoCard.dart @override Widget build(BuildContext context) {  |
-|Widget build      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |Define screen,   |  |
-|Build()      | Required in every widget class to describe what to show. | `build` |canva, Pdf  |  |
-|BuildConext      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
+|Widget build      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |Define screen |Widget build(BuildContext context) {return Scaffold( |
+|Build()      | Required in every widget class to describe what to show. | `build` |canva, Pdf  |background.dart  Widget build(BuildContext context) {  |
+|BuildConext      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |background.dart  Widget build(BuildContext context) { return Scaffold(  |
 |super.key      | A keyword used to pass a value to the parent widget. | `super.key` |emailing teacher  |alt_design_screen.dart const AltDesignScreen({super.key});  |
 |Const      | A keyword that means the value won't change and is set once. | `const` |settings,title of app  |InfoCard.dart const SizedBox(width: 12), Expanded( child: Text(  |
 
@@ -94,7 +94,7 @@
 |Method      | A function that belongs to a class. | `void bark() {}` |self driving cars, take test |  |
 |Constructor      | A special function used to set up a class when it’s created. | `Dog(this.name);` |Baby certificate (name, date)  |  |
 |Abstraction      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |Driving a car without knowing the engine  |  |
-|Override      | Changing how a built-in or inherited function behaves. | `@override` |super hero have different powers  |  |
+|Override      | Changing how a built-in or inherited function behaves. | `@override` |super hero have different powers  |alt_design_screen.dart @override Widget build(BuildContext context) {  |
 |Void      | A function that does not return a value. | `void printMessage() {}` |list of homework, marking something complete, turning on light switch not getting something in return  |  |
 
 
