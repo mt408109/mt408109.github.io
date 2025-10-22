@@ -96,7 +96,12 @@
 |Abstraction      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |Driving a car without knowing the engine  |  |
 |Override      | Changing how a built-in or inherited function behaves. | `@override` |super hero have different powers  |alt_design_screen.dart @override Widget build(BuildContext context) {  |
 |Void      | A function that does not return a value. | `void printMessage() {}` |list of homework, marking something complete, turning on light switch not getting something in return  |  |
-
+|scanner   |Creates a scanner object to take ipout from user |Scanner in = new Scanner(System.in); |  |  |
+|Print Statement   | prints the content in the parenthesis |  System.out.println("Enter item name: ");  |  |  |
+|nextLine   | Reads in a string from user  | |  |  |
+|nextInt   | Reads in an int from user  | |  |  |
+|nextDouble   | Reads in a double (decimal) from the user| |  |  |
+|nextBoolean   | Reads in a boolean (true/flase) from the user| |  |  |
 
 [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 ## Markdown Style Guide for Coding Notebooks
