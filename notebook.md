@@ -104,7 +104,7 @@
 |input nextDouble   |Reads in a double (decimal) from the user|input.nextDouble(); |  |  |
 |input nextBoolean   |reads in a boolean (true/false) from the user|input.nextBoolean(); |  |  |
 |Artithmetic operators |  -     *    /    % (modulus, returns the remaninder from dividing|  |  |
-|compound operators (applies the result to the variable    |+=  -+ *=  /=  %= ++ (adds 1)|input nextBoolean   | |  |
+|compound operators (applies the result to the variable)    |+=  -+ *=  /=  %= ++ (adds 1)| | |  |
 
 [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 ## Markdown Style Guide for Coding Notebooks
