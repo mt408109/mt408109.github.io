@@ -96,13 +96,15 @@
 |Abstraction      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |Driving a car without knowing the engine  |  |
 |Override      | Changing how a built-in or inherited function behaves. | `@override` |super hero have different powers  |alt_design_screen.dart @override Widget build(BuildContext context) {  |
 |Void      | A function that does not return a value. | `void printMessage() {}` |list of homework, marking something complete, turning on light switch not getting something in return  |  |
-|scanner   |Creates a scanner object to take ipout from user |Scanner in = new Scanner(System.in); |  |  |
+|scanner   |Creates a scanner object to take input from user |Scanner in = new Scanner(System.in); |  |  |
 |import scanner |Gives access to Scanner class, required at top|import java.util.Scanner; |  |  |
 |Print line Statement   | prints the content in the parenthesis, adds line after |  System.out.println(" ");  |  |  |
 |input nextLine   | Reads in a string from the user  |input.nextLine(); |  |  |
 |input nextInt   | Reads in an int from the user |input.nextint(); |  |  |
 |input nextDouble   |Reads in a double (decimal) from the user|input.nextDouble(); |  |  |
 |input nextBoolean   |reads in a boolean (true/false) from the user|input.nextBoolean(); |  |  |
+|Artithmetic operators |  -     *    /    % (modulus, returns the remaninder from dividing|  |  |
+|compound operators (applies the result to the variable    |+=  -+ *=  /=  %= ++ (adds 1)|input nextBoolean   | |  |
 
 [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 ## Markdown Style Guide for Coding Notebooks
