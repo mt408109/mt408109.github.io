@@ -50,6 +50,8 @@
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
+| Algorithms   | Define step by step processes to follow when completing a task or solving a problem | no syntax,Make a grilled cheese, Verify user                                         |
+|Sequencing|  Define an order for when steps in an algorithm are completed                                  | Follows 1, 2, 3, which step comes first in making a grilled cheese, Get bread, add butter, add cheese                                          |
 | Widget           | Basic building block of a Flutter app. Everything. is a widget                      | Test,image,containers,column                                          |
 | MaterialApp      | The root of the app. Sets up routes and the theme. | Found in main.dart                                          |
 | Scaffold         | Provides basic visual layout - like a header, body, floating button                                                 | Each screen uses it                                          |
